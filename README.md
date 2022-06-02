@@ -23,3 +23,5 @@ To run your tests
 - Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
 
 * this is the link for white board challenge [readme for white board challeng](./arry-revChalleng/array-rev.md)
+
+* this is the link for white bored challeng 2 [readme file](./array-insert-shift/arrayinsertread.md)
