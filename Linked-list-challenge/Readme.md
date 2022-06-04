@@ -8,7 +8,7 @@
 
     * LinkedList − A Linked List contains the connection  to the first node called Head.
 
-* Linked List Applications
+* Linked List Applications . .
     * Dynamic memory allocation
     * Implemented in stack and queue
 
