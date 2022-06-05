@@ -4,7 +4,8 @@
 
 CHALLENGE 1 - Review
 
-Write a function named sortByChildren that sorts the characters below by the number of children in each house (fewest to most). If a house has the same number of children, sort alphabetically by house name.
+Write a function named sortByChildren that sorts the characters below by the number of children in each house (fewest to most).
+If a house has the same number of children, sort alphabetically by house name.
 
 ------------------------------------------------------------------------------------------------ */
 let characters = [
@@ -132,10 +133,9 @@ regular expression pattern to return a new array containing any cities that begi
 ------------------------------------------------------------------------------------------------ */
 
 const citiesAtoJ = (arr) => {
-  let regex=/^[A-J]\w+/g
-  let newArr=arr.join(" ")
- let found = newArr.match(regex)
-  return found
+  let regex=/^[A-J]/;
+  let result=arr.filter(elem=>regex.test(elem));
+  return result;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -269,7 +269,7 @@ describe('Testing challenge 5', () => {
   });
 });
 
-xdescribe('Testing challenge 6', () => {
+describe('Testing challenge 6', () => {
   let cities = ['Cleveland', 'San Diego', 'Birmingham', 'Seattle', 'Miami', 'New York City', 'Omaha', 'Portland', 'Austin', 'Boston', 'Newport Beach', 'Hoboken'];
 
   test('It should return the cities whose names begin with the letters A through J', () => {

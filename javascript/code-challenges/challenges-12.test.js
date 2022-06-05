@@ -54,8 +54,10 @@ If it does, return true. If not, return false.
 
 const hasNumber = (string) => {
   let regex=/[a-z][0-9]/gi
-  let result= regex.test(string);
-  return result;
+  if( regex.test(string)){
+    return true
+  }
+  return false
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -102,10 +104,10 @@ Return either true or false.
 ------------------------------------------------------------------------------------------------ */
 
 const validatePhoneNumber = (phoneNumber) => {
-  let regex= /^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$/
+  let regex= /^(\((\d{3})\)[\s]?|(\d{3})[\s-]?)(\d{3})[\s-]?(\d{4})$/
   let result=regex.test(phoneNumber)
-  // console.log(result)
-  return result
+    
+return result
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -207,7 +209,7 @@ describe('Testing challenge 5', () => {
   });
 });
 
-xdescribe('Testing challenge 6', () => {
+describe('Testing challenge 6', () => {
   test('It should match the acceptable phone number formats', () => {
     expect(validatePhoneNumber('(555) 555-5555')).toBeTruthy();
     expect(validatePhoneNumber('555 555-5555')).toBeTruthy();
