@@ -79,6 +79,24 @@ class linkedList {
         }
         
     }
+
+    insertBefore(value,newValue){
+        let current=this.head
+        const newNode=new Node(newValue)
+        if(current.value==value){
+            this.head=newNode
+            return this
+        }
+        while(current.next!=null){
+            if(current.next.value==value){
+               newNode.next=current.next
+               current.next=newNode
+               return this
+            }
+            current=current.next  
+        }
+        return this
+    }
   
  
 }
