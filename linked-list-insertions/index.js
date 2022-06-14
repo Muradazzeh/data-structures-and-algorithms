@@ -10,10 +10,11 @@ allNodes.append(8)
 allNodes.append(9)
 
 allNodes.append(10)
-allNodes. insertAfter(6,20)
+allNodes. insertAfter(8,20)
+allNodes. insertBefore(6,20)
 
 
-// console.log(allNodes)
+console.log(allNodes)
 // console.log(allNodes.includes(4))
 // console.log(allNodes.includes(10))
 // console.log(allNodes.includes(5))

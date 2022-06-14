@@ -17,7 +17,10 @@
 * in this challenge we have to choose to method to implemnt in the linked list , so I choose the append value in the last of the linked list 
 * and the second methode is to insert new node after given value  as shown in the white bored below :
 ![link](./Image/white%20bored%20append.png)
+* Insert After 
 ![link](./Image/white%20bored%20insert%20after.png)
+* and this Insert before method 
+![link](./Image/white%20bored%20insert%20%20before.png)
 
 * and I add extara to tests for append method and insert after method 
 
