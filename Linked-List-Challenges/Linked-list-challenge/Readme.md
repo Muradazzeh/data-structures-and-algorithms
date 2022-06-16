@@ -12,6 +12,10 @@
     * Dynamic memory allocation
     * Implemented in stack and queue
 
+## I updated my solution for the insert method 
+* it will insert at the head value as shown below 
+![link](./Image/Screenshot%20(262).png)
+* also I add jest test for inser method 
 ## Linked List Implementation challeng 
 * in this challenge we have to use ES6 classes to implement singly linked list .
 * first we have to create the Node class and in the node should store value and pointer to the next node .
