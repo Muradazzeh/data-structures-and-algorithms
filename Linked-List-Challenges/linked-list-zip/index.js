@@ -5,13 +5,15 @@ const LL1= new linkedList()
 const LL2= new linkedList()
 LL1.append(4)
 LL1.append(6)
-LL1.append(10)
-LL1.append(20)
-
+// LL1.append(10)
+// LL1.append(20)
 
 
 LL2.append(7)
 LL2.append(9)
+LL2.append(10)
+LL2.append(20)
+
 
 
 
@@ -51,7 +53,9 @@ while(curr2){
     list3.append(curr2.value)
     curr2= curr2.next
 }
+    
 return list3.toString();
+
 } 
 
    
