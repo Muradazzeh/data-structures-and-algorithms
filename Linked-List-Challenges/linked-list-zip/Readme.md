@@ -35,6 +35,13 @@
 
 ### finally I tryed to prepare jest test for all casess , as shown in the picture above , like I have 6 casses, but I couldn't Implemnt Zip List function on the test , I will try to do it 
 
+## > Update I Used console spy on the function because all my result was printed on console so when I used normal function it is gives me undifined , but now I got result as shown :
+
+![link](./Image/Screenshot%20(300).png)
+![link](./Image/Screenshot%20(301).png)
+
+* and this the link for the test file [link for test file](./__test__/index.test.js)
+
 
 
 
