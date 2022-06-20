@@ -1,0 +1,16 @@
+{
+  "name": "reversed-linked-list",
+  "version": "1.0.0",
+  "description": "* is linear data structure thats contains nodes and the nods contains value and pointer to the next node , as showen below  ![link](./Image/InkedLinkedlist_LI.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^28.1.1",
+    "supertest": "^6.2.3"
+  }
+}
