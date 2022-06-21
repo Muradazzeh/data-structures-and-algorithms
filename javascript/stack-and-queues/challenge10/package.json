@@ -1,0 +1,16 @@
+{
+  "name": "challenge10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^28.1.1",
+    "supertest": "^6.2.3"
+  }
+}
