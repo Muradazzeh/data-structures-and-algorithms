@@ -38,7 +38,7 @@ Common terminology for a stack is
 
 ![link](./image/Screenshot%20(306).png)
 
-* And I prepared the jest test for 7 test cases as shown 
+* And I prepared the jest test for 7 test cases for stack as shown 
 * [x] Can successfully push onto a stack
 * [x] Can successfully push multiple values onto a stack
 * [x] Can successfully pop off the stack
