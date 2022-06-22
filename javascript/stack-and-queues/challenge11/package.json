@@ -1,0 +1,16 @@
+{
+  "name": "challenge11",
+  "version": "1.0.0",
+  "description": "* A stack is a data structure that consists of Nodes. Each Node references the next Node in the stack, but does not reference its previous.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "supertest": "^6.2.3",
+    "test": "^3.0.1"
+  }
+}
