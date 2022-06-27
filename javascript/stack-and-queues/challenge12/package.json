@@ -1,0 +1,16 @@
+{
+  "name": "challenge12",
+  "version": "1.0.0",
+  "description": "* Feature Tasks      * Create a new class called pseudo queue.     * Do not use an existing Queue.     * Instead, this PseudoQueue class will implement our standard queue interface (the two methods listed below),     * Internally, utilize 2 Stack instances to create and manage the queue     *   Methods:     * enqueue     * Arguments: value     * Inserts value into the PseudoQueue, using a first-in, first-out approach.     * dequeue     * Arguments: none     * Extracts a value from the PseudoQueue, using a first-in, first-out approach.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^28.1.1",
+    "supertest": "^6.2.3"
+  }
+}
