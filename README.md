@@ -25,3 +25,13 @@ To run your tests
 * this is the link for white board challenge [readme for white board challeng](./arry-revChalleng/array-rev.md)
 
 * this is the link for white bored challeng 2 [readme file](./array-insert-shift/arrayinsertread.md)
+
+* this is the link for Linked -list challenge [link for readme file](./Linked-list-challenge/Readme.md)
+
+* this is the challenge 10 stack and Queue [link for readme file](./javascript/stack-and-queues/challenge10/readme.md)
+* this is the challenge 11 for queue using stack [link for readme file](./javascript/stack-and-queues/challenge11/readme.md)
+* this is the challenge 12 animal shelter using stack[link for readme file](./javascript/stack-and-queues/challenge12/readme.md)
+* this is the challenge 13 simeler brackets using stack [link for readme file](./javascript/stack-and-queues/challenge13/readme.md)
+* this is the challenge 14 Duck Duck Goose using queue [link for readme file](./javascript/stack-and-queues/challenge14/readme.md)
+
+
