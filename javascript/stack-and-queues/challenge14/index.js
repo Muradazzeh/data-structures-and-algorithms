@@ -1,9 +1,10 @@
 `use strict`
 const Queue=require("./Queues/queue")
-let newQueue=new Queue()
+
 
 
 function DuckDuckGoose(stringlist,k){
+  let newQueue=new Queue()
     for(let i=0;i<stringlist.length;i++){
         newQueue.enqueue(stringlist[i])
        
