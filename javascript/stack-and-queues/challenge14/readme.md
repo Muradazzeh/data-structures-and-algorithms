@@ -1,9 +1,18 @@
 ## Challenge 14 
-### DUck Duck Goose 
+### Duck Duck Goose 
 
 * this is the white bored challenge 
 
 ![link](./white%20bored%20challenge%2014%20a.jpg)
+
+* I wii do small explenation about my method 
+  * first I created function called duck duck goose , it will take two argument , string list , or array of string and a K intger , it is normal number 
+  * so first thing I did I defined My Queue and I used for loop to insert all strings inside Queue , so I will get a Queue contain all the strings each string in each node (not that this first step I did to get clear result and clear understanding of My method)
+  * now we will start with the checking code , so I used while loop to check that , Queue is containing more than one string so we will keep iterating ,
+  * the second loop we will use for loop to do a number of iterations from the Queue front until we hit k , so in each iteration we will remove from front of the Queue and insert to the rear of Queue 
+  * when we hit K simply we will dequeue the node at K index 
+  * we will keep doing this until we have only one node , so it will be the winner 
+
 
 * this is the code for solution 
 `````
