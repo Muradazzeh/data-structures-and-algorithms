@@ -29,9 +29,9 @@ The Big O space complexity of a BST search would be O(1). During a search, we ar
 ![link](./classes/image/InkedInkedflowers-tree.gif)
 
 
-> note that we implemnt binery tree in the class , we use the same approch , and the big challenge to implement Binery search tree
+> note that we implemnt binery tree in the lecture , we use the same approch , and the same implmantation , so the big challenge is how to implement Binery search tree 
 * so I will print all result in console for binery tree methods ,we implement all 3 method and this is the test sample result 
-![link](/classes/image/Screenshot%20(354).png)
+![link](./classes/image/Screenshot%20(354).png)
 
 * so for Binery search tree the asked for sub class from the main class is binery tree , and ther required two method , inside sub class , first Add with argument value : we will add new value to our tree in proper location  , the second one in Contains with argument value , we will compare this value in all our value in the tree if we find it we will return true 
 
