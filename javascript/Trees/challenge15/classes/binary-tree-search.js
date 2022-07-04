@@ -9,36 +9,52 @@ class binarySearchTree extends binaryTree{
             this.root=new node(value) 
             return
         }
-        if (value>this.root.value){
-            if(!this.root.right){
-                this.root.right=new node(value)
-                return
+        
+        let addValue=(result)=>{
+        if (value>result.value){
+            if(!result.right){
+                result.right=new node(value)
+               
             }
-            this.Add(this.root.right)
+           
+            addValue( result.right);
         }
-        if(value<this.root.value){
-            if(!this.root.left){
-                this.root.left=new node(value)
-                return
+        if(value<result.value){
+            if(!result.left){
+                result.left=new node(value)
+               
             }
-            this.Add(this.root.left)
+             
+            addValue(result.left)
         }
+    }
+    addValue(this.root)
     }
 
     Contains(value){
-        
-            let search = (node) => {
-              if (node.value == value) {
+        if(!this.root.value){
+            return false
+        }
+            let search = (result) => {
+              if (result.value == value) {
                 return true
-            } 
-            
+            } else if (result.value > value) {
+                if (!result.left) {
+                  return false;
+                }
+                return search(result.left)
+            }
+            else {
+                if (!result.right) {
+                  return false;
+                }
+                return search(result.right);
+              }
               
-              if (node.left) search(node.left);
-              if (node.right) search(node.right);
-            };
-            search(this.root);
-            return false;
         
 }
+return search(this.root)
+}
+
 }
 module.exports=binarySearchTree
