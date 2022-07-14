@@ -52,7 +52,7 @@ function fizzBuzzTree(KTree){
 ```
 * let see the out put result 
 
-![link](/image/Screenshot%20(395).png) 
+![link](./image/Screenshot%20(395).png) 
 
 * and this is the jest test sample 
 
