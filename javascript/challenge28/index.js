@@ -28,6 +28,7 @@ function swap(arr,i,low){
 }
 
 quickSort(arr1,0,5)
-console.log(arr1)
+console.log("input array",[10, 7, 8, 9, 1, 5])
+console.log("output array",arr1)
 
 module.exports=quickSort
