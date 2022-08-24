@@ -123,7 +123,7 @@ four1.right = five;
 nine1.left=eight;
 nine1.right=ten;
 Tree= new binaryTree(three)
-// console.log(Tree)
+
 // Tree 2 implementation
 n3.left=two;
 n3.right=eleven;
@@ -135,11 +135,8 @@ eleven.left=six;
 eleven.right=nine
 nine.left=n
 nine.right=ten
-
-
-
 Tree2= new binaryTree(n3)
-// console.log(Tree2,"tree2")  
+  
 
 function treeIntersection (tree1, tree2){
     if(tree1.root ==null || tree2.root==null){
