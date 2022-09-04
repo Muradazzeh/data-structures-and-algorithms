@@ -16,6 +16,7 @@ Here is what the algorithm breadth first traversal looks like:
 
 
 * pseudo code 
+
 ```
 ALGORITHM BreadthFirst(vertex)
     DECLARE nodes <-- new List()
@@ -36,11 +37,12 @@ ALGORITHM BreadthFirst(vertex)
 
     return nodes;
 
-    ```
+```
+
 
     * javsscripts code 
 
-    ```
+ ```
      BreadthFirst(vertex){
         let nodes= new Array();
         let visited = new  Set();
@@ -71,4 +73,7 @@ else{
     }
 
 }
+```
+* index result 
 
+![link](./Queues/Screenshot%20(528).png)
