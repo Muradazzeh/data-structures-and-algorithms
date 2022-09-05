@@ -14,6 +14,9 @@ Here is what the algorithm breadth first traversal looks like:
 * Dequeue the first node from the queue
 * if the Dequeue‘d node has unvisited child nodes, add the unvisited children to visited set and insert them into the queue.
 
+###  white bored pic 
+
+![link](./Queues/graph.jpg)
 
 * pseudo code 
 
@@ -65,11 +68,8 @@ else{
 }
         }
     }
-        // let result=visited.map(el=>{
-        //     return el.value})
 
             return nodes
-
     }
 
 }

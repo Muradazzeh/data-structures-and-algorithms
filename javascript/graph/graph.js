@@ -88,7 +88,7 @@ myGraph.addDirectedEdge(two, four);
 myGraph.addDirectedEdge(two, three);
 myGraph.addDirectedEdge(four, five);
 myGraph.addDirectedEdge(zero, zero);
-console.log(myGraph.BreadthFirst(zero))
+console.log(myGraph.BreadthFirst(zero ))
 // myGraph.addDirectedEdge(seven, two);
 
 
