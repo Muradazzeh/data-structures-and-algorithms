@@ -39,3 +39,21 @@ console.log(arr[i])
 
 
 }
+
+
+/// problem 1 arr=[1,2,3,4,5,6,7,8]   k=2 output=[7,8,1,2,3,4,5,6]
+
+
+
+// function test(arr,k){
+function test(arr,k){
+  for (let i=0;i<k;i++){
+let y = arr.pop()
+arr.unshift(y)
+
+  }
+return arr
+
+}
+
+console.log(test([1,2,3,4,5,6,7,8],2))
