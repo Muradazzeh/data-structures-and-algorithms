@@ -57,3 +57,24 @@ return arr
 }
 
 console.log(test([1,2,3,4,5,6,7,8],2))
+
+
+/// remove duplicated from sorted array and
+
+// arr = [1,1,2,2,2,2,3,3,4,5,6,7,7,7,7,8,9] output [1,2,3,4,5,6,7,8,9]
+
+
+let arr2=[1,1,2,2,2,2,3,3,4,5,6,7,7,7,7,8,9]
+let newArr=[] 
+let count = 0
+for (let i= 0; i<arr2.length; i++){
+
+  if (newArr.indexOf(arr2[i])=== -1){
+    count++
+    newArr.push(arr2[i])
+  }
+
+ 
+}
+console.log(newArr)
+console.log(count)
