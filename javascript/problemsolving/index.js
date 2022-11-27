@@ -78,3 +78,15 @@ for (let i= 0; i<arr2.length; i++){
 }
 console.log(newArr)
 console.log(count)
+
+
+/////// 
+
+let x = -1234 ; 
+let newX= Math.abs(x)
+console.log(newX )
+let str=''
+for (let i=newX.length-1 ; i >=0 ; i--){
+   str += newX[i] 
+}
+console.log(Number(str))
