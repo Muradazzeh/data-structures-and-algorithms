@@ -90,3 +90,20 @@ for (let i=newX.length-1 ; i >=0 ; i--){
    str += newX[i] 
 }
 console.log(Number(str))
+
+////// What is OOPs?
+/// Difference between Procedural programming and OOPs?
+///Class v.s Object
+///Static Method
+///Encapsulation
+///Abstraction
+///Overloading v.s Overriding
+///Inheritance 
+///Constructors
+///Access modifiers
+///Superclass v.s Subclass?
+///Polymorphism
+///Interface 
+///Exception
+///Can you create an instance of an abstract class?
+///Local variable v.s Instance variable
